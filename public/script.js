@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:3000/api/parts";
+const API_URL = "/api/parts";
 
 async function fetchParts() {
   const res = await fetch(API_URL);
